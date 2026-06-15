@@ -1,5 +1,6 @@
 ﻿import { useEffect } from 'react';
 import { animateOnScroll } from '../utils/scrollAnimations';
+import coffeeImage from '../assets/cofee.png';
 
 const Hero = () => {
   useEffect(() => {
@@ -100,7 +101,7 @@ const Hero = () => {
         <div className="relative flex-1 flex items-end justify-center">
 
           <img
-            src="/src/assets/cofee.png" // ganti dengan PNG kamu
+            src={coffeeImage}
             alt="Kopi Senja"
             className="
               w-full

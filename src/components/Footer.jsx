@@ -1,3 +1,4 @@
+import logo from "../assets/kopi-senja-logo.svg";
 import { 
   // FiCoffee, 
   FiInstagram, 
@@ -19,7 +20,7 @@ const Footer = () => {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <img
-                  src="/src/assets/kopi-senja-logo.svg"
+                  src={logo}
                   alt="Kopi Senja logo"
                   className="w-14 h-14"
                 />

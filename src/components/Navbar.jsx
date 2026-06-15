@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
+import logo from "../assets/kopi-senja-logo.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +72,7 @@ const Navbar = () => {
               className="group flex items-center gap-3"
             >
               <img
-                src="/src/assets/kopi-senja-logo.svg"
+                src={logo}
                 alt="Kopi Senja logo"
                 className="w-11 h-11 md:w-12 md:h-12"
               />

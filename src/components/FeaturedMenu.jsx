@@ -1,37 +1,37 @@
 import { useEffect } from "react";
 import { animateHeading, animateOnScroll, animateImage } from "../utils/scrollAnimations";
+import latteImg from "../assets/latte.png";
+import cappucinoImg from "../assets/cappucino.png";
+import croissantImg from "../assets/Croissant.png";
 
 const menuItems = [
-{
-id: 1,
-category: "Coffee",
-name: "Signature Latte",
-price: "Rp 12.000",
-description:
-"Perpaduan espresso dan susu dengan karakter rasa yang lembut dan seimbang.",
-image:
-"/src/assets/latte.png", // ganti dengan gambar menu kamu
-},
-{
-id: 2,
-category: "Coffee",
-name: "Cappuccino Klasik",
-price: "Rp 12.000",
-description:
-"Pilihan biji kopi terbaik dengan cita rasa khas yang menjadi favorit pelanggan.",
-image:
-"/src/assets/cappucino.png", // ganti dengan gambar menu kamu
-},
-{
-id: 3,
-category: "Bakery",
-name: "Croissant Mentega",
-price: "Rp 15.000",
-description:
-"Croissant hangat yang dibuat untuk melengkapi pengalaman menikmati kopi.",
-image:
-"/src/assets/Croissant.png", // ganti dengan gambar menu kamu
-},
+  {
+    id: 1,
+    category: "Coffee",
+    name: "Signature Latte",
+    price: "Rp 12.000",
+    description:
+      "Perpaduan espresso dan susu dengan karakter rasa yang lembut dan seimbang.",
+    image: latteImg,
+  },
+  {
+    id: 2,
+    category: "Coffee",
+    name: "Cappuccino Klasik",
+    price: "Rp 12.000",
+    description:
+      "Pilihan biji kopi terbaik dengan cita rasa khas yang menjadi favorit pelanggan.",
+    image: cappucinoImg,
+  },
+  {
+    id: 3,
+    category: "Bakery",
+    name: "Croissant Mentega",
+    price: "Rp 15.000",
+    description:
+      "Croissant hangat yang dibuat untuk melengkapi pengalaman menikmati kopi.",
+    image: croissantImg,
+  },
 ];
 
 const FeaturedMenu = () => {
