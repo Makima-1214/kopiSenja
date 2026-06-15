@@ -94,7 +94,7 @@ const FeaturedMenu = () => {
           `}
         >
 
-          <div className="overflow-hidden rounded-[32px]" data-menu-image>
+          <div className="overflow-hidden rounded-xl md:rounded-[32px]" data-menu-image>
             <img
               src={item.image}
               alt={item.name}

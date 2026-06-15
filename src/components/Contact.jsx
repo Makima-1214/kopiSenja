@@ -90,7 +90,7 @@ const Contact = () => {
           </div>
 
           {/* Google Maps */}
-          <div className="bg-stone-200 rounded-2xl overflow-hidden shadow-lg h-[400px] lg:h-auto relative group">
+          <div className="bg-stone-200 rounded-xl md:rounded-2xl overflow-hidden shadow-lg h-[400px] lg:h-auto relative group">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.798467110856!2d107.61912537499088!3d-6.903444367733782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64c5e6c6b1f%3A0x4c4c4c4c4c4c4c4c!2sBandung!5e0!3m2!1sen!2sid!4v1690000000000!5m2!1sen!2sid"
               width="100%"

@@ -75,7 +75,7 @@ const Testimonial = () => {
           {testimonials.map((t) => (
             <div
               key={t.id}
-              className="bg-white rounded-2xl p-8 border border-stone-200 flex flex-col gap-6 hover:shadow-xl transition-all duration-500 hover:-translate-y-1"
+              className="bg-white rounded-xl md:rounded-2xl p-8 border border-stone-200 flex flex-col gap-6 hover:shadow-xl transition-all duration-500 hover:-translate-y-1"
               data-testimonial-card
             >
               {/* Stars */}

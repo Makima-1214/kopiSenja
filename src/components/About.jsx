@@ -34,12 +34,12 @@ const About = () => {
           
           {/* SISI KIRI: Gambar Berkarakter dengan Efek Hover */}
           <div className="md:col-span-5 w-full group relative">
-            <div className="relative w-full aspect-[3/4] overflow-hidden shadow-sm" data-about-image>
-              <img
-                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=900"
-                alt="Suasana Kopi Senja"
-                loading="lazy"
-                className="w-full h-full object-cover rounded-t-[15rem] rounded-sm"
+<div className="relative w-full aspect-[3/4] overflow-hidden shadow-sm rounded-xl" data-about-image>
+            <img
+              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=900"
+              alt="Suasana Kopi Senja"
+              loading="lazy"
+              className="w-full h-full object-cover rounded-t-[2rem] sm:rounded-t-[15rem] rounded-sm"
               />
             </div>
 
