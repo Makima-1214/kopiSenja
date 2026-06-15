@@ -176,7 +176,7 @@ const Navbar = () => {
       <div
         className={`
           fixed inset-0 z-40 md:hidden
-          bg-[#F7F3EE]
+          bg-white
           transition-all duration-500
           ${
             isOpen

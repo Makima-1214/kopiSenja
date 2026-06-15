@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen overflow-hidden bg-[#F7F3EE]"
+      className="relative min-h-screen overflow-hidden bg-white"
     >
       {/* Background Typography */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden">

@@ -44,7 +44,7 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <section className="py-28 bg-[#F7F3EE]">
+    <section className="py-28 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         {/* Heading */}

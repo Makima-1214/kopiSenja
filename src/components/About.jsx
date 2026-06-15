@@ -16,7 +16,7 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" className="py-32 bg-[#FDFBF7] text-[#4A3F35]">
+    <section id="about" className="py-32 bg-white text-[#4A3F35]">
       <div className="max-w-5xl mx-auto px-6 sm:px-8">
         
         {/* Header - Ringan & Puitis */}
